@@ -3,6 +3,7 @@ A_mod = hydro.A(:,:,10);
 A_mod(A_mod > 3e5) = NaN;
 
 figure
+figure 2
 imagesc(A_mod)
 hold on
 for num=1:11
